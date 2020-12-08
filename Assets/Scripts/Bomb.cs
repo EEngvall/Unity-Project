@@ -38,6 +38,6 @@ public class Bomb : MonoBehaviour
         explosionModel.SetActive(true);
         yield return new WaitForSeconds(explosionDuration);
         Destroy(gameObject);
-
+        //
     }
 }
